@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+section{
+    height: 650px;
+}
+
+.first-section{
+    background-image: url('image/header-bg.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+
+h2{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+#name{
+    font-size: 50px;
+    font-weight: 900;
+    color: lightcoral;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    margin-top: 9%;
+    padding-left: 2%;
+}
+
+p{
+    color: #696969 ;
+    font-size: 22px;
+    margin-bottom: 35px;
+}
+
+.hire-me-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+div img{
+    width: 50%;
+}
+
+.half-width-2{
+    width: 40%;
+    float: right;
+    margin-right: 8%;
+    margin-top: -35%;
+}
+
+.biography{
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.download-cv-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, lightsalmon, tomato);
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 5px;
+}
+
+.secend-section{
+    background-image: url('image/footer-bg.png');
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+.thred-section{
+    background-image: url('image/biography-bg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: 10%;
+}
+
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+
+.center-img{
+    display: flex;
+    width: 55%;
+    margin-top: 7%;
+    margin-left: 8%;
+}
+
+#text{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 5%;
+}
+
+
+#design-developer{
+    font-size: 27px;
+    color: tomato;
+    font-weight: 100;
+}
+
+#text-2{
+    text-align: center;
+    font-size: 25px;
+    width: 47%;
+    margin-left: 27%;
+    margin-top: 5%;
+}
+
+#massege{
+    background: #e02828;
+    text-align: center;
+    margin: 0 auto;
+    color: lightyellow;
+    text-decoration: none;
+    border-radius: 35px;
+    width: 60%;
+    padding: 15px 0;
+    margin-top: 40px;
+    margin-bottom: 5%;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 10%;
+}
